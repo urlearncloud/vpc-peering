@@ -64,3 +64,25 @@ vpc  =  vpc-2    ---->  autoassign-pub-ip  =  enable      ----->   SG  =  vpc2-s
 userdata  :-  paste userdata code-for-server2
 
 launch instance
+
+
+
+
+### Task 6: Establishing a VPC Peering Connection
+
+
+name  =  mypeer
+
+requester-vpc  =  vpc-1
+
+accepter-vpc  =   vpc-2
+
+
+click Accept request 
+
+
+click on  Route table ( rt-1-vpc-1  )  ---->   Edit routes   ---->   Add route  =  10.200.0.0/16 ( vpc-2  ip-add )   ---->  mention peer-id   ---->   Click on Save changes
+
+
+click on  Route table ( rt-1-vpc-2  )  ---->   Edit routes   ---->   Add route  =  10.100.0.0/16 ( vpc-1  ip-add )   ---->  mention peer-id   ---->   Click on Save changes
+

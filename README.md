@@ -53,6 +53,8 @@ vpc  =  vpc-1    ---->  autoassign-pub-ip  =  enable     ----->   SG  =  vpc1-sg
 
 userdata  :-  paste userdata code-for-server1
 
+launch instance
+
 
 
 Name  =  secondinstance    ------>    AMI   =  Ubuntu-22     ------>   KEYPAIR  =  peer-key.pem   
@@ -60,3 +62,5 @@ Name  =  secondinstance    ------>    AMI   =  Ubuntu-22     ------>   KEYPAIR  
 vpc  =  vpc-2    ---->  autoassign-pub-ip  =  enable      ----->   SG  =  vpc2-sg ( alltraffic  -->  anywhere )
 
 userdata  :-  paste userdata code-for-server2
+
+launch instance

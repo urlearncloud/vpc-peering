@@ -10,3 +10,8 @@ It facilitates secure and efficient sharing of resources across different VPCs, 
 
 
 ### Task 1: Creating Two VPCs
+
+vpc-1    ------>   ip = 10.100.0.0/16
+
+
+vpc-2   --------->   ip =  10.200.0.0/16

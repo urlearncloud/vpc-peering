@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Update and install apache2
+apt-get update
+apt-get install -y apache2
+
+# Create a simple index.html file with "Hello" text
+echo "Hello SECOND" > /var/www/html/index.html
+
+# Restart apache2 service
+systemctl restart apache2

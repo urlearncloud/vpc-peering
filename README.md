@@ -94,6 +94,8 @@ click on  Route table ( rt-1-vpc-2  )  ---->   Edit routes   ---->   Add route  
 
 Select your firstinstance and click on Connect    ----->   click On SSH client   --->  open your powershell & connect
 
+sudo apt update
+
 curl  < pvt-ip-secondinstance >
 
 
@@ -104,6 +106,8 @@ curl  < pvt-ip-secondinstance >
 
 
 Select your secondinstance and click on Connect    ----->   click On SSH client   --->  open your powershell & connect
+
+sudo apt update
 
 curl  < pvt-ip-firstinstance >
 

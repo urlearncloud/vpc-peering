@@ -86,3 +86,43 @@ click on  Route table ( rt-1-vpc-1  )  ---->   Edit routes   ---->   Add route  
 
 click on  Route table ( rt-1-vpc-2  )  ---->   Edit routes   ---->   Add route  =  10.100.0.0/16 ( vpc-1  ip-add )   ---->  mention peer-id   ---->   Save changes
 
+
+
+
+### Task 7: SSH into EC2s
+
+
+Select your firstinstance and click on Connect    ----->   click On SSH client   --->  open your powershell & connect
+
+curl  < pvt-ip-secondinstance >
+
+
+(successfully established)
+
+
+
+
+
+Select your secondinstance and click on Connect    ----->   click On SSH client   --->  open your powershell & connect
+
+curl  < pvt-ip-firstinstance >
+
+
+(successfully established)
+
+
+
+
+===========
+
+Now, let's remove the connection and see if the connection still happens.
+
+curl  < pvt-ip-secondinstance >
+
+There is no response to the request at this time.
+
+
+
+
+
+================end=============================

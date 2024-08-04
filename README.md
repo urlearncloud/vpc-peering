@@ -81,8 +81,8 @@ accepter-vpc  =   vpc-2
 click Accept request 
 
 
-click on  Route table ( rt-1-vpc-1  )  ---->   Edit routes   ---->   Add route  =  10.200.0.0/16 ( vpc-2  ip-add )   ---->  mention peer-id   ---->   Click on Save changes
+click on  Route table ( rt-1-vpc-1  )  ---->   Edit routes   ---->   Add route  =  10.200.0.0/16 ( vpc-2  ip-add )   ---->  mention peer-id   ---->   Save changes
 
 
-click on  Route table ( rt-1-vpc-2  )  ---->   Edit routes   ---->   Add route  =  10.100.0.0/16 ( vpc-1  ip-add )   ---->  mention peer-id   ---->   Click on Save changes
+click on  Route table ( rt-1-vpc-2  )  ---->   Edit routes   ---->   Add route  =  10.100.0.0/16 ( vpc-1  ip-add )   ---->  mention peer-id   ---->   Save changes
 
